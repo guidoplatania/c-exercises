@@ -1,0 +1,19 @@
+Descrizione del programma
+Scrivere un programma in C che:
+
+● A. Prenda un input da tastiera (argomenti della funzione
+main) costituito dal nome di un file di testo (ES: input.txt)
+ed un numero intero “k” nell’intervallo [5-15]. il file
+contiene una collezione di stringhe, una per riga; si suppone
+che la lunghezza di ogni stringa sia non superiore ai 30
+caratteri;
+
+● B. Legga tutte le stringhe contenute nel file di input e le
+memorizzi in una struttura dati di tipo stack;
+
+● C. Stampi tutte le stringhe mediante una sequenza di
+operazioni di rimozione dallo stack (pop()).
+
+● D. con riferimento al punto C, i caratteri delle stringhe con
+lunghezza maggiore o uguale al numero k vanno stampate in
+ordine lessicografico crescente.
