@@ -1,0 +1,35 @@
+Descrizione del programma
+Scrivere un programma in C che:
+
+● A. Prenda un input da tastiera (argomenti della funzione
+main) costituito da un intero positivo N in [5,10] e due
+caratteri a e b in [‘a’,’z’]. Il programma deve verificare
+che i parametri N, a e b rispettino le specifiche e
+restituire in caso contrario un messaggio di errore.
+
+● B. Iteri la seguente procedura N volte, facendo uso di una
+struttura dati LIFO dinamica (pila o stack) da implementare
+mediante lista concatenata semplice (top==testa della lista):
+○ per ognuno degli N passi, si generi innanzitutto un
+carattere x in [‘1’-’9’];
+    ■  se x rappresenta un numero in [‘1’-’4’], allora si
+    proceda ad x operazioni di inserimento (push) di
+    caratteri pseudo-casuali che siano vocali, seguite
+    dall’inserimento del carattere x;
+    ■ se x rappresenta un numero in [‘5’-’9’], allora si
+    proceda ad x operazioni di inserimento (push) di
+    caratteri pseudo-casuali che siano consonanti,
+    seguite dall’inserimento del carattere x;
+    ■ in particolare, sia c il generico carattere da
+    inserire sullo stack:
+        ● se c==a (a rappresenta il primo carattere
+        specificato come argomento della funzione
+        main), si inserisca sullo stack al posto di
+        esso il carattere '*';
+        ● se c==b (a rappresenta il secondo carattere
+        specificato come argomento della funzione
+        main) si inserisca sullo stack al posto di
+        esso il carattere '?';
+    ■ si inserisca infine il carattere x sullo stack
+    
+● C. Stampi, sullo standard output, l’intero stack.
