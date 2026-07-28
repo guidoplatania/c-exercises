@@ -1,0 +1,20 @@
+Descrizione del programma
+Scrivere un programma in C che:
+
+● A. Prenda un input da tastiera (argomenti della funzione
+main) costituito dal nome di un file di testo (ES: input.txt)
+e due lettere minuscole dell’alfabeto a e b, per cui sia
+a<=b. Il file contiene una collezione di stringhe, una per
+riga; si suppone che la lunghezza di ogni stringa sia non
+superiore ai 30 caratteri;
+
+● B. Legga tutte le stringhe contenute nel file di input e le
+memorizzi in una struttura dati dinamica di tipo FIFO (una
+CODA);
+
+● C. Stampi tutte le stringhe, estraendole dalla coda, mediante
+una sequenza di operazioni ``dequeue``;
+
+● D. con riferimento al punto C, tutti i caratteri delle
+stringhe compresi nell’intervallo [a, b], siano sostituiti, a
+schermo, dal carattere ‘0’ (zero).
