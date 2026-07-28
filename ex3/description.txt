@@ -1,0 +1,22 @@
+Descrizione del programma
+Scrivere un programma in C che:
+
+● A. Prenda un input da tastiera (argomenti della funzione main)
+costituito dal nome di un file di testo (ES: input.txt) ed un numero F
+in virgola mobile in [1.0, 20.0]; il file contiene una collezione di
+stringhe, una per riga; si suppone che la lunghezza di ogni stringa
+sia non superiore ai 30 caratteri; Ogni coppia di stringhe rappresenta
+un singolo record, il quale risulta composto da un numero in virgola
+mobile (in una riga) ed una parola (nella riga successiva)-- vedi
+input in seconda pagina
+
+● B. il programma legga tutte le stringhe contenute nel file di input e
+le memorizzi in una lista doppiamente concatenata in cui ogni record
+contenga il numero in virgola mobile (sia V) e la parola (sia P); i
+record vanno inseriti all’interno della lista sulla base
+dell’ordinamento lessicografico crescente del campo P;
+
+● C. Stampi la lista ottenuta sullo standard output, dal primo
+all’ultimo elemento della lista stessa;
+
+● D. Stampi infine il numero di record della lista tali che V >= F
