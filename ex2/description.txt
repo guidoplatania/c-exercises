@@ -1,0 +1,18 @@
+Descrizione del programma
+Scrivere un programma in C che:
+
+● A. Prenda un input da tastiera (argomenti della funzione main)
+costituito dal nome di un file di testo (ES: input.txt) ed un numero k
+in [7,13]; il file contiene una collezione di stringhe, una per riga;
+si suppone che la lunghezza di ogni stringa sia non superiore ai 30
+caratteri;
+
+● B. Legga tutte le stringhe contenute nel file di input e le memorizzi
+in una lista doppiamente concatenata che viene mantenuta con
+ordinamento lessicografico crescente;
+
+● C. Stampi la lista ottenuta sullo standard output, dal primo
+all’ultimo elemento;
+
+● D. Stampi infine il numero di stringhe della lista cha ha una
+lunghezza pari o maggiore di k.
