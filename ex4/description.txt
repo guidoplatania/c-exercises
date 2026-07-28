@@ -1,0 +1,19 @@
+Descrizione del programma
+Scrivere un programma in C che:
+  
+● A. Prenda un input da tastiera (argomenti della funzione
+main) costituito dal nome di un file di testo (ES:
+input.txt). il file contiene una collezione di stringhe, una
+per riga; si suppone che la lunghezza di ogni stringa sia non
+superiore ai 30 caratteri;
+
+● B. Legga tutte le stringhe contenute nel file di input e le
+memorizzi mediante operazioni ``enqueue’’ in una struttura
+dati CODA dinamica;
+  
+● C. Stampi tutte le stringhe mediante una sequenza di
+operazioni di rimozione dalla coda e le inserisca in un array
+di stringhe.
+  
+● D. Ordini lo array di stringhe in ordine lessicografico
+crescente, ed infine lo stampi
